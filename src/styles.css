@@ -91,6 +91,10 @@ h6 {
   overflow-wrap: break-word;
 }
 
+ul {
+  list-style-type: none;
+}
+
 #root,
 #__next {
   isolation: isolate;
