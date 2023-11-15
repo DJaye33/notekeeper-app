@@ -4,17 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ContainerComponent } from './container/container.component';
 import { HeaderComponent } from './header/header.component';
+import { NotesModule } from './notes/notes.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ContainerComponent,
-    HeaderComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, ContainerComponent, HeaderComponent],
+  imports: [BrowserModule, NotesModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
