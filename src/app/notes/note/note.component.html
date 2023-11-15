@@ -1,0 +1,14 @@
+<li>
+  <button>
+    <p>{{ note.title }}</p>
+    <p>{{ note.text }}</p>
+    <div>
+      <!-- TODO: make created time dynamic -->
+      <p>{{ note.created }}</p>
+      <ng-content></ng-content>
+      <!-- <button>
+        <img src="assets/images/delete.svg" alt="delete note" />
+      </button> -->
+    </div>
+  </button>
+</li>

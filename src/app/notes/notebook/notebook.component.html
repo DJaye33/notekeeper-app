@@ -1,24 +1,11 @@
 <section>
+  <!-- FIXME: Make notebook title dynamic -->
   <h3>My Notebook</h3>
   <ul>
-    <li>
-      <button class="note">
-        <p>Title</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur. Dolor accumsan quisque
-          tincidunt semper erat pulvinar aenean laoreet. A in nulla odio nibh id
-          felis volutpat mauris. Interdum pretium viverra pellentesque
-          fermentum. Posuere leo tellus tellus nulla sagittis pellentesque
-          scelerisque.
-        </p>
-        <div>
-          <!-- TODO: make dynamic for time note was created -->
-          <span>Just now</span>
-          <button class="delete-note">
-            <img src="" alt="delete note" />
-          </button>
-        </div>
+    <app-note>
+      <button>
+        <img src="assets/images/delete.svg" alt="delete note" />
       </button>
-    </li>
+    </app-note>
   </ul>
 </section>
