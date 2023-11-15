@@ -1,3 +1,43 @@
+:root {
+  /* Light theme */
+  --background-light: #fffbff;
+  --on-background-light: #201a18;
+  --surface-light: #fff8f6;
+  --surface-container-low-light: #fef1ec;
+  --surface-container-highest-light: #ede0db;
+  --on-surface-light: #201a18;
+  --on-surface-variant-light: #52443d;
+  --primary-light: #9d4300;
+  --on-primary-light: #ffffff;
+  --primary-container-light: #ffdbca;
+  --on-primary-container-light: #341100;
+  --secondary-container-light: #ffdbca;
+  --on-secondary-container-light: #2b160a;
+  --outline-light: #85736b;
+  --outline-variant-light: #d7c2b9;
+  --inverse-surface-light: #362f2c;
+  --inverse-on-surface-light: #fbeee9;
+
+  /* Dark theme */
+  --background-dark: #201a18;
+  --on-background-dark: #ede0db;
+  --surface-dark: #181210;
+  --surface-container-low-dark: #201a18;
+  --surface-container-highest-dark: #3a3330;
+  --on-surface-dark: #d0c4bf;
+  --on-surface-variant-dark: #d7c2b9;
+  --primary-dark: #ffb690;
+  --on-primary-dark: #552100;
+  --primary-container-dark: #783200;
+  --on-primary-container-dark: #ffdbca;
+  --secondary-container-dark: #5c4032;
+  --on-secondary-container-dark: #ffdbca;
+  --outline-dark: #a08d84;
+  --outline-variant-dark: #52443d;
+  --inverse-surface-dark: #ede0db;
+  --inverse-on-surface-dark: #201a18;
+}
+
 *,
 *::before,
 *::after {
