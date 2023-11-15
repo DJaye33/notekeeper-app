@@ -1,0 +1,16 @@
+main {
+  padding: 1.6rem;
+}
+
+/* ---- Media Queries ---- */
+@media (min-width: 800px) {
+  main {
+    padding: 1.6rem 2.4rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  main {
+    padding: 1.6rem 4rem;
+  }
+}

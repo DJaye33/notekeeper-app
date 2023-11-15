@@ -1,0 +1,19 @@
+<header>
+  <hgroup>
+    <!-- FIXME: Greeting will be determined by time of day -->
+    <h2>Good Morning</h2>
+    <small>{{ today | date : "fullDate" }}</small>
+  </hgroup>
+  <div class="menu-group">
+    <button>
+      <!-- TODO: Change hidden property based on theme mode -->
+      <img src="assets/images/dark_mode.svg" alt="dark mode" />
+    </button>
+    <button hidden>
+      <img src="assets/images/light_mode.svg" alt="dark mode" />
+    </button>
+    <button class="menu">
+      <img src="assets/images/menu.svg" alt="menu" />
+    </button>
+  </div>
+</header>
