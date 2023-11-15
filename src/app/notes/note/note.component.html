@@ -1,14 +1,12 @@
 <li>
-  <button>
-    <p>{{ note.title }}</p>
-    <p>{{ note.text }}</p>
+  <button class="note-btn">
+    <p class="note-title">{{ note.title }}</p>
+    <p class="note-text">{{ note.text | truncate : 99 }}</p>
     <div>
       <!-- TODO: make created time dynamic -->
       <p>{{ note.created }}</p>
+      <!-- Projected Delete Button -->
       <ng-content></ng-content>
-      <!-- <button>
-        <img src="assets/images/delete.svg" alt="delete note" />
-      </button> -->
     </div>
   </button>
 </li>
